@@ -5,6 +5,10 @@ This repository contains the implementation of a model for the BirdCLEF 2023 com
 The model is built using a combination of ResNet and supervised contrastive learning techniques to 
 achieve optimal results in bird sound classification.
 
+
+## Demo of the Web App
+https://github.com/VijayRavichander/BirdCLEF23-SCL/assets/58650933/c8300341-a1b6-436b-8988-91617bab5aa9
+
 ## Project Structure
 - **checkpoints:** This folder contains the saved model checkpoints that can be used for prediction or further training.
 
@@ -26,9 +30,10 @@ achieve optimal results in bird sound classification.
 
 2. Ensure that the necessary dataset files are placed in the `data` folder.
 
-3. You can use the `predict.py` script to make predictions:
+3. You can use the `app.py` script to use the app:
+   
    ```
-   python predict.py
+   streamlit run app.py
    ```
 
 ## Additional Resources
